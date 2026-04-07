@@ -1,0 +1,32 @@
+/* 1. Reset y box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tipografía para títulos */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* 3. Estilos del Header */
+header {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+}
+
+
+
+
+.patriot img {
+    width: 100px;
+    height: 100 px;
+    border-radius:100%;
+    object-fit: cover;
+    border: 4px solid #ff0000;
+    flex-shrink: 0; /* Evita que la imagen se deforme */
+}
