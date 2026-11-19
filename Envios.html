@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENVIOS NACIONALES | CITY CASE </title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --azul-oscuro: #050510;
+            --azul-brillante: #00d4ff;
+            --glass: rgba(255, 255, 255, 0.03);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--azul-oscuro);
+            color: white;
+        }
+
+        .navbar {
+            background-color: rgba(10, 10, 20, 0.95);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Estilo de Tarjetas de Transparencia */
+        .transparency-card {
+            background: var(--glass);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .transparency-card:hover {
+            border-color: var(--azul-brillante);
+            background: rgba(0, 212, 255, 0.05);
+            transform: translateY(-5px);
+            color: var(--azul-brillante);
+        }
+
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            background: rgba(0, 212, 255, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: var(--azul-brillante);
+            font-size: 1.5rem;
+        }
+
+        .hero-transparencia {
+            background: linear-gradient(rgba(5, 5, 16, 0.8), rgba(5, 5, 16, 0.8)), url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            padding: 60px 0;
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+                    <a class="navbar-brand fw-bold" href="index.html" style="color: var(--azul-brillante);">ENVIOS <span class="text-white">NACIONALES</span></a>
+            <div class="ms-auto">
+               
+            <a href="index.html" class="btn btn-outline-info btn-sm rounded-pill px-3">Inicio</a>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="hero-transparencia text-center shadow-lg">
+            <div class="container px-5">
+                <h1 class="display-5 fw-bold mb-3">Portal de <span style="color: var(--azul-brillante);">Transparencia</span></h1>
+                <p class="small text-light opacity-75 mx-auto" style="max-width: 800px;">
+                    Dando cumplimiento a la <span class="fw-bold">Ley No. 200-04</span> sobre Libre Acceso a la Información Pública.
+                    Garantizamos información completa, diáfana y útil para toda la ciudadanía.
+                </p>
+                <div class="mt-4">
+                    <span class="badge rounded-pill bg-info text-dark p-2 px-3">
+                      <a  href="rectoria.html"></i>
+                    </span>
+                </div>
+            </div>
+            </a>
+        </div>
+
+       <div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#baseLegalContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-bank me-2"></i> Base Legal de la Institución</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="baseLegalContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <h5 class="text-info fw-bold"><i class="bi bi-book me-2"></i>Constitución</h5>
+        <p class="small">Constitución Política de la República Dominicana. Votada y Proclamada por la Asamblea Nacional en fecha 13 de junio de 2015 (Gaceta Oficial No. 10805).</p>
+        <div class="d-flex gap-2 mb-4">
+            <span class="badge bg-secondary">PESO: 394.9 KB</span>
+            <span class="badge bg-danger">TIPO: PDF</span>
+        </div>
+
+        <h5 class="text-info fw-bold"><i class="bi bi-file-earmark-text me-2"></i>Decretos</h5>
+        <div class="mb-3 p-3 rounded-3" style="background: rgba(255,255,255,0.03);">
+            <p class="mb-1 fw-bold text-white">Decreto 65-26</p>
+            <p class="small mb-2">Se designa a Jimmy Rosario Bernard como Rector del ITLA, de fecha 31 de enero 2026.</p>
+            <div class="d-flex gap-2 mb-3">
+                <span class="badge bg-secondary">PESO: 155.7 KB</span>
+                <span class="badge bg-danger">TIPO: PDF</span>
+            </div>
+            
+            <p class="small border-top border-secondary pt-2 mt-2">
+                <strong>240-08:</strong> Encarga a la Fundación Parque Cibernético de Santo Domingo de la Administración del ITLA.
+            </p>
+        </div>
+
+        <h5 class="text-info fw-bold"><i class="bi bi-info-circle me-2"></i>Información Institucional</h5>
+        <ul class="list-group list-group-flush bg-transparent">
+            <li class="list-group-item bg-transparent text-white-50 border-secondary border-opacity-10 small">Presupuesto y Finanzas</li>
+            <li class="list-group-item bg-transparent text-white-50 border-secondary border-opacity-10 small">Recursos Humanos</li>
+            <li class="list-group-item bg-transparent text-white-50 border-secondary border-opacity-10 small">Compras y Contrataciones</li>
+            <li class="list-group-item bg-transparent text-white-50 border-secondary border-opacity-10 small">Declaraciones Juradas de Patrimonio</li>
+        </ul>
+    </div>
+</div>
+            
+       <div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#marcosLegalesContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-gavel me-2"></i> Marcos Legales (Leyes)</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="marcosLegalesContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <div class="row g-3">
+            <div class="col-12 border-bottom border-secondary border-opacity-10 pb-3">
+                <h6 class="text-white fw-bold">Ley No. 155-17</h6>
+                <p class="small text-secondary mb-2">Lavado de Activos y el Financiamiento del Terrorismo (Junio 2017).</p>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-secondary opacity-75">2.6 MB</span>
+                    <span class="badge bg-danger opacity-75">PDF</span>
+                </div>
+            </div>
+
+            <div class="col-12 border-bottom border-secondary border-opacity-10 pb-3">
+                <h6 class="text-white fw-bold">Ley No. 311-14</h6>
+                <p class="small text-secondary mb-2">Declaración Jurada de Patrimonio.</p>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-secondary opacity-75">84.2 KB</span>
+                    <span class="badge bg-danger opacity-75">PDF</span>
+                </div>
+            </div>
+
+            <div class="col-12 border-bottom border-secondary border-opacity-10 pb-3">
+                <h6 class="text-white fw-bold">Ley No. 172-13</h6>
+                <p class="small text-secondary mb-2">Protección de datos personales (13 de diciembre de 2013).</p>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-secondary opacity-75">640.7 KB</span>
+                    <span class="badge bg-danger opacity-75">PDF</span>
+                </div>
+            </div>
+
+            <div class="col-12 border-bottom border-secondary border-opacity-10 pb-3">
+                <h6 class="text-white fw-bold">Ley No. 247-12</h6>
+                <p class="small text-secondary mb-2">Orgánica de la Administración Pública (9 de agosto de 2012).</p>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-secondary opacity-75">960.7 KB</span>
+                    <span class="badge bg-danger opacity-75">PDF</span>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <h6 class="text-white fw-bold">Ley No. 1-12</h6>
+                <p class="small text-secondary mb-2">Estrategia Nacional de Desarrollo (12 de enero de 2012).</p>
+                <div class="d-flex gap-2">
+                    <span class="badge bg-secondary opacity-75">1.6 MB</span>
+                    <span class="badge bg-danger opacity-75">PDF</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#derechosCiudadanosContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-person-raised-hand me-2"></i> Derechos de los Ciudadanos</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="derechosCiudadanosContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <div class="alert alert-info bg-opacity-10 border-info border-opacity-25 mb-4">
+            <small class="d-block text-white mb-2 fw-bold"><i class="bi bi-info-circle me-2"></i> Garantía Fundamental</small>
+            <p class="small mb-0 text-secondary">
+                Todo ciudadano(a) tiene derecho a solicitar y recibir información completa, veraz y oportuna de los órganos del Estado, según la Ley 200-04.
+            </p>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-6">
+                <ul class="list-group list-group-flush bg-transparent">
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Acceso gratuito a la información pública.</small>
+                    </li>
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Conocer presupuestos, gastos y ejecución financiera.</small>
+                    </li>
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Acceder a la nómina y remuneraciones del Estado.</small>
+                    </li>
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Saber sobre licitaciones, compras y concursos.</small>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group list-group-flush bg-transparent">
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Ver listados de becas, subsidios y programas sociales.</small>
+                    </li>
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Consultar declaraciones juradas de funcionarios.</small>
+                    </li>
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Obtener copias de reglamentos y normativas vigentes.</small>
+                    </li>
+                    <li class="list-group-item bg-transparent text-light border-secondary border-opacity-10 py-3">
+                        <i class="bi bi-check2-circle text-info me-2"></i> <small>Información sobre estado de la deuda pública.</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-4 p-3 rounded-3 bg-secondary bg-opacity-10 border-start border-danger">
+            <p class="small mb-0 text-secondary fst-italic">
+                <strong>Limitaciones:</strong> El acceso a la información se hará efectivo siempre que no afecte la seguridad nacional, el orden público, la salud, la moral pública o la intimidad de terceros.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#estadosFinancierosContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-graph-up-arrow me-2"></i> Estados Financieros (ERIR)</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="estadosFinancierosContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <p class="small text-secondary mb-4">
+            Consulta los informes anuales del Estado de Recaudación e Inversión de las Rentas (ERIR) correspondientes a los últimos periodos fiscales.
+        </p>
+
+        <div class="table-responsive">
+            <table class="table table-dark table-hover align-middle border-secondary border-opacity-10">
+                <thead class="text-info small">
+                    <tr>
+                        <th>Año Fiscal</th>
+                        <th>Descripción del Documento</th>
+                        <th>Tamaño</th>
+                        <th class="text-center">Acción</th>
+                    </tr>
+                </thead>
+                <tbody class="small">
+                    <tr>
+                        <td class="fw-bold">2025</td>
+                        <td class="text-white-50">Estado de Recaudación e Inversión de las Rentas</td>
+                        <td><span class="badge bg-secondary opacity-75">22.7 MB</span></td>
+                        <td class="text-center"><a href="#" class="text-danger fs-5"><i class="bi bi-file-earmark-pdf"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">2024</td>
+                        <td class="text-white-50">Estado de Recaudación e Inversión de las Rentas</td>
+                        <td><span class="badge bg-secondary opacity-75">46.6 MB</span></td>
+                        <td class="text-center"><a href="#" class="text-danger fs-5"><i class="bi bi-file-earmark-pdf"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">2023</td>
+                        <td class="text-white-50">Estado de Recaudación e Inversión de las Rentas</td>
+                        <td><span class="badge bg-secondary opacity-75">6.5 MB</span></td>
+                        <td class="text-center"><a href="#" class="text-danger fs-5"><i class="bi bi-file-earmark-pdf"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">2022</td>
+                        <td class="text-white-50">Estado de Recaudación e Inversión de las Rentas</td>
+                        <td><span class="badge bg-secondary opacity-75">5.2 MB</span></td>
+                        <td class="text-center"><a href="#" class="text-danger fs-5"><i class="bi bi-file-earmark-pdf"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">2021</td>
+                        <td class="text-white-50">Estado de Recaudación e Inversión de las Rentas</td>
+                        <td><span class="badge bg-secondary opacity-75">4.6 MB</span></td>
+                        <td class="text-center"><a href="#" class="text-danger fs-5"><i class="bi bi-file-earmark-pdf"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold">2020</td>
+                        <td class="text-white-50">Estado de Recaudación e Inversión de las Rentas</td>
+                        <td><span class="badge bg-secondary opacity-75">6.1 MB</span></td>
+                        <td class="text-center"><a href="#" class="text-danger fs-5"><i class="bi bi-file-earmark-pdf"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div> 
+<div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#estructuraOrganicaContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-diagram-3 me-2"></i> Estructura Orgánica de la Institución</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="estructuraOrganicaContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <p class="small text-secondary mb-4 p-2 border-start border-info">
+            Estructura aprobada por el Ministerio de Administración Pública (MAP) el 20 de diciembre del 2019.
+        </p>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h6 class="text-info fw-bold mb-3"><i class="bi bi-person-badge me-2"></i>Rectoría</h6>
+                <ul class="list-unstyled small ps-3 border-start border-secondary">
+                    <li class="mb-2 text-white-50">Departamento de Recursos Humanos</li>
+                    <li class="mb-2 text-white-50">Oficina de Acceso a la Información (OAI)</li>
+                    <li class="mb-2 text-white-50">Dirección de Comunicaciones (RR.PP, Factoría, Digital)</li>
+                    <li class="mb-2 text-white-50">Dirección de Tecnología (TIC)</li>
+                    <li class="mb-2 text-white-50">Dirección de Planificación y Desarrollo</li>
+                    <li class="mb-2 text-white-50">Departamento Jurídico</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h6 class="text-info fw-bold mb-3"><i class="bi bi-mortarboard me-2"></i>Vicerrectoría Académica</h6>
+                <ul class="list-unstyled small ps-3 border-start border-secondary">
+                    <li class="mb-2 text-white-50">Departamento de Registro y Admisiones</li>
+                    <li class="mb-2 text-white-50">Facultad de Ciencia y Tecnología (Decanato)</li>
+                    <li class="mb-2 text-white-50">Escuelas: Ingeniería, Arte y TIC’s</li>
+                    <li class="mb-2 text-white-50">Servicio Estudiantil y Biblioteca</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h6 class="text-info fw-bold mb-3"><i class="bi bi-cash-stack me-2"></i>Vicerrectoría Administrativa</h6>
+                <ul class="list-unstyled small ps-3 border-start border-secondary">
+                    <li class="mb-2 text-white-50">Departamento Financiero</li>
+                    <li class="mb-2 text-white-50">Compras y Contrataciones</li>
+                    <li class="mb-2 text-white-50">Servicios Generales y Mantenimiento</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h6 class="text-info fw-bold mb-3"><i class="bi bi-globe me-2"></i>Extensión y Desarrollo Social</h6>
+                <ul class="list-unstyled small ps-3 border-start border-secondary">
+                    <li class="mb-2 text-white-50">Centro de Emprendimiento e Innovación</li>
+                    <li class="mb-2 text-white-50">Programa de Extensiones y Egresados</li>
+                    <li class="mb-2 text-white-50">Educación Permanente y Escuela de Idiomas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-3 pt-3 border-top border-secondary border-opacity-25">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="small"><i class="bi bi-file-earmark-pdf text-danger me-2"></i>Estructura Orgánica ITLA</span>
+                <span class="badge bg-secondary">351 KB | PDF</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="small"><i class="bi bi-file-earmark-pdf text-danger me-2"></i>Manual de Organización y Funciones</span>
+                <span class="badge bg-secondary">7.7 MB | PDF</span>
+            </div>
+        </div>
+<div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#datosAbiertosContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-box-seam me-2"></i> Publicación en Portal de Datos Abiertos</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="datosAbiertosContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <div class="d-flex align-items-center mb-4 p-3 rounded-3" style="background: rgba(0, 212, 255, 0.05); border: 1px solid rgba(0, 212, 255, 0.1);">
+            <i class="bi bi-cloud-arrow-down fs-3 me-3 text-info"></i>
+            <p class="small mb-0 text-secondary">
+                Gestionamos nuestros conjuntos de datos en formatos abiertos a través de <span class="text-white fw-bold">datos.gob.do</span>, garantizando la reutilización de la información pública.
+            </p>
+        </div>
+
+        <h6 class="text-uppercase small fw-bold text-info mb-3 opacity-75">Últimos conjuntos publicados</h6>
+
+        <div class="row g-3">
+            <div class="col-12">
+                <div class="p-3 rounded-3 border border-secondary border-opacity-10 bg-white bg-opacity-10 shadow-sm">
+                    <h6 class="mb-1 text-white">Órdenes de Compras Realizadas y Aprobadas (2018 - 2026)</h6>
+                    <p class="small text-secondary mb-3">Detalle concerniente a todas las compras aprobadas por la institución.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge bg-success bg-opacity-75">XLSX</span>
+                        <span class="badge bg-warning text-dark">ODS</span>
+                        <span class="badge bg-primary">CSV</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="p-3 rounded-3 border border-secondary border-opacity-10 bg-white bg-opacity-10 shadow-sm">
+                    <h6 class="mb-1 text-white">Ejecución Presupuestaria (2017 - 2026)</h6>
+                    <p class="small text-secondary mb-3">Seguimiento detallado a la ejecución del presupuesto institucional.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge bg-success bg-opacity-75">XLSX</span>
+                        <span class="badge bg-warning text-dark">ODS</span>
+                        <span class="badge bg-primary">CSV</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="p-3 rounded-3 border border-secondary border-opacity-10 bg-white bg-opacity-10 shadow-sm">
+                    <h6 class="mb-1 text-white">Estadísticas de Estudiantes Inscritos (2006 - 2025)</h6>
+                    <p class="small text-secondary mb-3">Datos sobre inscritos por cuatrimestre y carreras de Educación Superior.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge bg-success bg-opacity-75">XLSX</span>
+                        <span class="badge bg-warning text-dark">ODS</span>
+                        <span class="badge bg-primary">CSV</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="p-3 rounded-3 border border-secondary border-opacity-10 bg-white bg-opacity-10 shadow-sm">
+                    <h6 class="mb-1 text-white">Estadísticas de Egresados (2009 - 2025)</h6>
+                    <p class="small text-secondary mb-3">Cantidad de estudiantes graduados de la institución por periodo.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge bg-success bg-opacity-75">XLSX</span>
+                        <span class="badge bg-warning text-dark">ODS</span>
+                        <span class="badge bg-primary">CSV</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="mb-3">
+    <button class="btn btn-outline-info rounded-pill w-100 text-start d-flex justify-content-between align-items-center p-3" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#consultasAbiertasContent" 
+            aria-expanded="false">
+        <span class="fw-bold"><i class="bi bi-chat-quote me-2"></i> Procesos de Consultas Abiertas</span>
+        <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
+
+<div class="collapse" id="consultasAbiertasContent">
+    <div class="card card-body bg-dark border-secondary border-opacity-25 rounded-4 mb-4">
+        
+        <ul class="nav nav-pills mb-4 border-bottom border-secondary border-opacity-10 pb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-pill small me-2" id="year-2026-tab" data-bs-toggle="pill" data-bs-target="#year-2026" type="button" role="tab">2026</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill small me-2 text-secondary" id="year-2025-tab" data-bs-toggle="pill" data-bs-target="#year-2025" type="button" role="tab">2025</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill small text-secondary" id="year-2024-tab" data-bs-toggle="pill" data-bs-target="#year-others" type="button" role="tab">Anteriores</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="year-2026" role="tabpanel">
+                <div class="text-center py-4">
+                    <i class="bi bi-folder-x fs-1 text-secondary opacity-25 mb-3 d-block"></i>
+                    <p class="small text-secondary mb-0">No existen Procesos de Consultas Abiertas registrados para:</p>
+                    <div class="d-flex justify-content-center gap-2 mt-2">
+                        <span class="badge border border-secondary text-secondary fw-normal">Enero 2026</span>
+                        <span class="badge border border-secondary text-secondary fw-normal">Febrero 2026</span>
+                        <span class="badge border border-secondary text-secondary fw-normal">Marzo 2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="year-2025" role="tabpanel">
+                <div class="text-center py-4">
+                    <p class="small text-secondary">Archivo histórico de consultas 2025 no disponible en este momento.</p>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="year-others" role="tabpanel">
+                <div class="list-group list-group-flush bg-transparent">
+                    <div class="list-group-item bg-transparent text-secondary border-secondary border-opacity-10 d-flex justify-content-between small">
+                        <span>Histórico 2023</span>
+                        <i class="bi bi-lock"></i>
+                    </div>
+                    <div class="list-group-item bg-transparent text-secondary border-secondary border-opacity-10 d-flex justify-content-between small">
+                        <span>Histórico 2022</span>
+                        <i class="bi bi-lock"></i>
+                    </div>
+                    <div class="list-group-item bg-transparent text-secondary border-secondary border-opacity-10 d-flex justify-content-between small">
+                        <span>Histórico 2021</span>
+                        <i class="bi bi-lock"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="p-4 rounded-4 bg-info bg-opacity-10 border border-info border-opacity-25 h-100">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-megaphone me-2"></i>Portal 311</h5>
+                    <p class="small text-secondary">Canal oficial para quejas, reclamaciones, sugerencias y denuncias.</p>
+                    <a href="#" class="btn btn-info btn-sm rounded-pill px-4 fw-bold shadow-sm">ACCEDER AL 311</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-4 rounded-4 bg-dark border border-secondary border-opacity-25 h-100">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-database-lock me-2"></i>Datos Abiertos</h5>
+                    <p class="small text-secondary">Consulta la publicación oficial en nuestro portal de datos abiertos.</p>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-pill px-4 fw-bold">EXPLORAR DATOS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+    </div>
+</div>
+
+<div class="text-center mt-5">
+                    <a href="contactos.html" class="btn btn-outline-info btn-lg px-5 rounded-pill shadow-lg">
+                        <i class="bi bi-arrow--circle me-2"></i> REALIZAR PEDIDO
+                    </a>
+
+    <footer class="py-5 text-center text-secondary border-top border-secondary border-opacity-25 mt-5">
+        <p class="small"> © 2026 CITY-CASE - Editorial Web</p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
