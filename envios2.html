@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas semanal | city case </title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --azul-oscuro: rgb(28 45 69);
+            --azul-brillante: #00d4ff;
+            --glass: rgb(28 45 69);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--azul-oscuro);
+            color: white;
+           
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .navbar {
+            background-color: rgba(10, 10, 20, 0.95);
+            border-bottom: 0px solid rgba(0, 212, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .career-card {
+            background: var(--glass);
+            border: 1px solid rgba(0, 212, 255, 0.1);
+            border-radius: 20px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(10px);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .career-card:hover {
+            border-color: var(--azul-brillante);
+            transform: translateY(10px);
+            background: rgba(29, 187, 218, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+        }
+
+        .badge-new {
+            background: linear-gradient(45deg, #ff00cc, #3333ff);
+            font-size: 0.7rem;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 2;
+        }
+
+        .icon-box {
+            font-size: 0rem;
+            margin-bottom: 15px;
+            color: var(--azul-brillante);
+        }
+
+        .stats-text { font-size: 0.85rem; color: #a0a0a0; }
+        
+        /* Estilos para los botones personalizados */
+        .btn-detalle {
+            border-color: rgba(0, 212, 255, 0.5);
+            color: white;
+            font-size: 0.7rem;
+        }
+        
+        .btn-inscribirme {
+            background-color: var(--azul-brillante);
+            border: none;
+            color: white;
+            font-size: 0.7rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            
+                      <a class="navbar-brand fw-bold"  style="color: var(--azul-brillante);"> </i> ENVIOS <span class="text-white">NACIONALES</span></a>
+            <div class="ms-auto">
+               
+            <a href="index.html" class="btn btn-outline-info btn-sm rounded-pill">Volver al Inicio</a>
+        </div>
+    </nav>
+
+    <header class="py-5 text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Políticas y Reglas de  <span style="color: var(--azul-brillante);">Envíos </span></h1>
+           
+            <p class="lead text-secondary"> city case</p> 
+        </div>  <hr>
+    </header>
+
+    
+        <div class="row g-4">
+            
+            <div class="col-md-4 col-lg-3">
+                <div class="career-card">
+                 <span class="badge badge-new rounded-pill px-3">important </span>
+                 <div class="icon-box"><i class="bi bi-shield-"></i></div>
+                 <h5 class="fw-bold">Horario de Procesamiento y Despacho</h5>
+                    
+                <p class="stats-text mb-0"> Horario de atención y preparación de pedidos: Lunes a sábado de 9:00 a. m. a 6:00 p. m. </p>  
+                <div class="mt-auto d-flex gap-2"></div>
+                  
+                  <p class="stats-text mb-2"><strong>(los pedidos recibidos domingos o feriados pasan a procesamiento el siguiente día laborable).</strong></p>
+                    <div class="mt-auto d-flex gap-2">
+                       
+                      
+                        
+                    </div>
+                </div>
+            </div>
+
+              
+             
+
+           
+
+           
+                       
+              
+             <div class="col-md-4 col-lg-3">
+                <div class="career-card">
+                    <span class="badge badge-new rounded-pill px-3">important </span>
+                    <div class="icon-box"><i class="bi bi-shield-"></i></div>
+                    <h5 class="fw-bold">Cortes de Despacho </h5>
+                    <p class="stats-text mb-0">Corte del mismo día: Los pedidos confirmados y pagados antes de las 3:30 p.m. entran en la ruta o despacho del mismo día hábil (sujeto a disponibilidad y cobertura).</p>
+                
+               
+                    <div class="mt-auto d-flex gap-2">
+                         <p class="stats-text mb-2"><strong>Pedidos FUERA DE STDE después de las 5:00 p.m. Se preparan para salida al siguiente día laborable.</strong></p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4 col-lg-3">
+                <div class="career-card">
+                    <span class="badge badge-new rounded-pill px-3">important </span>
+                    <div class="icon-box"><i class="bi bi-shield-"></i></div>
+                    <h5 class="fw-bold">Tiempos de Entrega Estimados</h5>
+                    <p class="stats-text mb-0">Santo Domingo Este y zonas cercanas / Gran Santo Domingo: Entrega estimada de <strong>2-4 HORAS</strong>  laborables una vez confirmado el pedido.</p>
+                     <div class="mt-auto d-flex gap-2"></div>
+                    <p class="stats-text mb-2"><strong>Nota: Los tiempos indicados son estimados y corren a partir de la confirmación del pedido y del pago correspondiente.</strong></p>
+                    <div class="mt-auto d-flex gap-2">
+                   
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="career-card">
+                    <span class="badge badge-new rounded-pill px-3">important </span>
+                    <div class="icon-box"><i class="bi bi-shield-"></i></div>
+                    <h5 class="fw-bold">Interior del país</h5>
+                    <p class="stats-text mb-0">SALIDAS DE PEDIDOS 
+                        <li>10:00 PM</li> <LI>4:00 PM </LI></p>
+                    <p class="stats-text mb-2"><strong>CURRIER. CARIBE TOURS. VIMEMPAC Y  RUTA EXPRESO </strong></p>
+                    <div class="mt-auto d-flex gap-2">
+                       
+                  
+                    </div>
+                </div>
+            </div>
+            </div>
+
+  
+        </div>
+
+    </main>
+
+
+<div class="text-center mt-5">
+                    <a href="contactos.html" class="btn btn-outline-info btn-lg px-5 rounded-pill shadow-lg">
+                        <i class="bi bi-arrow--circle me-2"></i> ORDEN NOW <i class="bi bi-arrow-right-circle me-2"></i>
+                    </a>
+
+
+        <div class="container text-center">
+          
+            <div class="my-4">
+                <a href="https://www.tiktok.com/@city_caserd?_r=1&_t=ZS-9BegWLtzsgf" class="social-icon"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/city_caserd/?hl=es" class="social-icon"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/c/18099789417" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+            </div>
+
+            
+
+
+    <footer class="py-4 text-center text-secondary border-top border-secondary border-opacity-25">
+        <p class="small">©   2026 CITY-CASE - Editorial Web</p>
+    </footer>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
